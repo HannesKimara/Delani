@@ -6,6 +6,7 @@ This is an portfolio website for Delani Studio.
     $ git clone https://github.com/HannesKimara/Delani.git
     ```
 - cd into `Delani`:
+
     ```
     $ cd Delani 
     ```

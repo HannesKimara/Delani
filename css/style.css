@@ -1,0 +1,327 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+html,body
+{
+    font-family: sans-serif;
+    line-height: 1.6rem;
+	height:100%;
+}
+
+div {
+	display:block;
+}
+
+section {
+	display: block;
+}
+
+.landing{
+	height: 100%;
+	width: 100%;
+	background-image: url("../assets/backgrounds/h_img.jpg");
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	padding:70px 0;
+}
+
+.delani-welcome{
+	background-color: inherit;
+	height:100%;
+	color: #FFFFFF;
+	
+	text-align: center;
+}
+
+.delani-welcome h1{
+	font-family: 'Open Sans', sans-serif;
+	padding-left: 10px;
+	word-wrap: break-word;
+}
+
+.delani-welcome p {
+	font-family: 'Montserrat', sans-serif;
+	padding: 10px;
+	word-wrap:break-word;
+}
+
+.landing img:first-child{
+	width:60px;
+	display:inline-block;
+	margin-top:5rem;
+	margin-bottom: 2.5rem;
+}
+
+.landing img:last-child{
+	position:absolute;
+	width:20px;
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0;
+	bottom: 1rem;
+	animation: Floating 3s infinite;
+	-webkit-animation: Floating 3s infinite;
+}
+
+#about-us {
+	font-family: Montserrat, sans-serif;
+	font-size: 13px;
+	display:grid;
+	min-height: 100%;
+	text-align: center;
+	
+	background: #EFF0E0;
+	
+}
+
+#about-us h2{
+	padding: 20px 0 10px 0;
+}
+
+#servicegrid{
+	background-image: url("../assets/backgrounds/s_image.jpg");
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height:100%;
+	color: #FFFFFF;
+	padding-top:50px;
+}
+
+
+#about-us p{
+	padding: 10px;
+	width: 60%;
+	margin: auto;
+}
+
+#aboutus{
+	margin:auto;
+	
+}
+
+
+#wwd-portfolio{
+	width:100%;
+	background: #EFF0E0;
+	margin: 0 auto;
+}
+
+.wwd {
+	width: 100%;
+	padding:2rem;
+	margin:0;
+	text-align: center;
+	font-family: Montserrat, sans-serif;
+	font-size: 13.5px;
+}
+
+
+
+.wwd img{
+	width: 45px;
+}
+
+.wwd h4{
+	padding: 1rem 0;
+	text-align: center left;
+}
+
+.wwd p {
+	padding: 0.5rem 0 1rem 0;
+}
+
+.wwdcard{
+	padding: 1.5rem 1rem;
+}
+
+.portfolio {
+	padding: 1rem 1rem 5rem 1rem;
+	margin: 0 auto;
+	width:90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2,200px);
+    grid-gap: 1.5rem;
+} 
+
+.portfolio img {
+	width: 100%;
+	height:100%;
+}
+
+#wwd-portfolio h2 {
+	text-align: center;
+	font-family: Montserrat, sans-serif;
+	padding: 0.8rem 1rem 0.8rem 1rem;
+}
+
+#contact-us {	
+    background: url("../assets/backgrounds/c_image.jpg") center center/cover no-repeat;
+}
+
+#contact-us h2 {	
+	font-family: Montserrat, sans-serif;
+    text-align: center;
+    color:#FFFFFF;
+    padding: 2rem 0 1rem 0;
+	margin: 0px;
+}
+
+.contact {	
+	width: 75%;
+	margin: 0 auto;
+}
+
+.contact div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact div input {
+    height: 2.7rem;
+    width: 40%;
+    background: transparent;
+	padding: 0 1rem 0 1rem;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+	border-radius: 3px;
+	
+	font-family:Open Sans, sans-serif;
+	font-size: 15px;
+}
+
+.contact div input::placeholder {
+    color: #FFFFFF;
+	font-style: italic;
+}
+
+.contact div input:focus{
+	outline:none;
+}
+
+.contact textarea {
+	font-family: Open Sans, sans-serif;
+	font-size: 15px;
+    margin-top: 1rem;
+    box-sizing:border-box;
+    width: 100%;
+    height: 25vh;
+    background: transparent;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+	border-radius: 3px;
+	padding: 8px;
+	resize: none;
+	margin-bottom: 5rem;
+}
+
+.contact textarea::placeholder {
+    color: #FFFFFF;
+	font-style: italic;
+}
+
+.contact textarea:focus{
+	outline:none;
+}
+
+#footer-footer{
+	background-color: #EFF0E0;
+	width:100%;
+	text-align: center;
+	font-family: Montserrat, sans-serif;
+	bottom: 0;
+}
+
+#footer-foooter p{
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+.footer-social {
+	margin: 0 auto;
+	width:100%;
+}
+
+.social{
+	margin: 0 auto;
+	width: 70%;
+	display: inline-block;
+}
+.footer-social a{
+	text-decoration: none;
+}
+
+.footer-social img{
+	width: 3rem;
+	margin: 1rem auto;
+}
+
+
+@-webkit-keyframes Floating{
+    from {
+		-webkit-transform:translate(0, 0px);
+	}
+    65% {
+		-webkit-transform:translate(0, 15px);
+	}
+    to {-webkit-transform: translate(0, -0px);
+	}
+}
+
+@keyframes Floating{
+    from {
+		transform:translate(0, 0px);
+	}
+    65% {
+		transform:translate(0, 15px);
+	}
+    to {transform: translate(0, -0px);
+	}    
+}
+
+@media(max-width:767px) {
+	.portfolio {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4,200px);
+    }
+	
+	.contact {
+		width: 95%;
+	}
+	.contact div input {
+        box-sizing:border-box;
+        margin-top: 1rem;
+        width: 100%;
+    }
+    .contact div {
+        flex-direction: column;
+    }
+	
+	#about-us p{
+		width: 80%;
+	}
+}
+
+@media(max-width:500px) {
+	.portfolio{
+		grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(8,200px);
+	}
+}
+
+@media screen and (max-width: 600px){
+	#about-us p{
+		width:90%;
+		line-height: 20px;
+	}
+	
+}

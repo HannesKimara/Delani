@@ -12,6 +12,7 @@ This is an portfolio website for Delani Studio.
     ```
 ### Usage
 - Open `index.html`
+- You could also visit the live demo [here](https://hanneskimara.github.io/Delani/)
 
 ### Built with
 - HTML

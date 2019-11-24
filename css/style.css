@@ -1,13 +1,13 @@
 *
 {
-    padding: 0;
-    margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
 html,body
 {
-    font-family: sans-serif;
-    line-height: 1.6rem;
+	font-family: sans-serif;
+	line-height: 1.6rem;
 	height:100%;
 }
 
@@ -146,10 +146,10 @@ section {
 	padding: 1rem 1rem 5rem 1rem;
 	margin: 0 auto;
 	width:90%;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2,200px);
-    grid-gap: 1.5rem;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2,200px);
+	grid-gap: 1.5rem;
 } 
 
 .portfolio img {
@@ -164,14 +164,14 @@ section {
 }
 
 #contact-us {	
-    background: url("../assets/backgrounds/c_image.jpg") center center/cover no-repeat;
+	background: url("../assets/backgrounds/c_image.jpg") center center/cover no-repeat;
 }
 
 #contact-us h2 {	
 	font-family: Montserrat, sans-serif;
-    text-align: center;
-    color:#FFFFFF;
-    padding: 2rem 0 1rem 0;
+	text-align: center;
+	color:#FFFFFF;
+	padding: 2rem 0 1rem 0;
 	margin: 0px;
 }
 
@@ -181,18 +181,18 @@ section {
 }
 
 .contact div {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
 }
 
 .contact div input {
-    height: 2.7rem;
-    width: 40%;
-    background: transparent;
+	height: 2.7rem;
+	width: 40%;
+	background: transparent;
 	padding: 0 1rem 0 1rem;
-    color: #FFFFFF;
-    border: 2px solid #FFFFFF;
+	color: #FFFFFF;
+	border: 2px solid #FFFFFF;
 	border-radius: 3px;
 	
 	font-family:Open Sans, sans-serif;
@@ -200,7 +200,7 @@ section {
 }
 
 .contact div input::placeholder {
-    color: #FFFFFF;
+	color: #FFFFFF;
 	font-style: italic;
 }
 
@@ -211,13 +211,13 @@ section {
 .contact textarea {
 	font-family: Open Sans, sans-serif;
 	font-size: 15px;
-    margin-top: 1rem;
-    box-sizing:border-box;
-    width: 100%;
-    height: 25vh;
-    background: transparent;
-    color: #FFFFFF;
-    border: 2px solid #FFFFFF;
+	margin-top: 1rem;
+	box-sizing:border-box;
+	width: 100%;
+	height: 25vh;
+	background: transparent;
+	color: #FFFFFF;
+	border: 2px solid #FFFFFF;
 	border-radius: 3px;
 	padding: 8px;
 	resize: none;
@@ -225,7 +225,7 @@ section {
 }
 
 .contact textarea::placeholder {
-    color: #FFFFFF;
+	color: #FFFFFF;
 	font-style: italic;
 }
 
@@ -267,44 +267,44 @@ section {
 
 
 @-webkit-keyframes Floating{
-    from {
+	from {
 		-webkit-transform:translate(0, 0px);
 	}
-    65% {
+	65% {
 		-webkit-transform:translate(0, 15px);
 	}
-    to {-webkit-transform: translate(0, -0px);
+	to {-webkit-transform: translate(0, -0px);
 	}
 }
 
 @keyframes Floating{
-    from {
+	from {
 		transform:translate(0, 0px);
 	}
-    65% {
+	65% {
 		transform:translate(0, 15px);
 	}
-    to {transform: translate(0, -0px);
-	}    
+	to {transform: translate(0, -0px);
+	}	
 }
 
 @media(max-width:767px) {
 	.portfolio {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(4,200px);
-    }
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(4,200px);
+	}
 	
 	.contact {
 		width: 95%;
 	}
 	.contact div input {
-        box-sizing:border-box;
-        margin-top: 1rem;
-        width: 100%;
-    }
-    .contact div {
-        flex-direction: column;
-    }
+		box-sizing:border-box;
+		margin-top: 1rem;
+		width: 100%;
+	}
+	.contact div {
+		flex-direction: column;
+	}
 	
 	#about-us p{
 		width: 80%;
@@ -314,7 +314,7 @@ section {
 @media(max-width:500px) {
 	.portfolio{
 		grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(8,200px);
+		grid-template-rows: repeat(8,200px);
 	}
 }
 
